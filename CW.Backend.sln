@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{47E453B8-4E3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{12FBC98D-FBF0-43C7-AE2F-F49320DA045F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW.Backend.Service.Authentication", "src\CW.Backend.Service.Authentication\CW.Backend.Service.Authentication.csproj", "{DD73AFAC-33F3-45BF-950B-03DE609FC96D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{AB48EA91-1EE7-4DDE-A721-EF798DAD24C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB48EA91-1EE7-4DDE-A721-EF798DAD24C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB48EA91-1EE7-4DDE-A721-EF798DAD24C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD73AFAC-33F3-45BF-950B-03DE609FC96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD73AFAC-33F3-45BF-950B-03DE609FC96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD73AFAC-33F3-45BF-950B-03DE609FC96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD73AFAC-33F3-45BF-950B-03DE609FC96D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

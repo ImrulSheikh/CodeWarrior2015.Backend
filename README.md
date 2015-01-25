@@ -1,4 +1,3 @@
-#
 
 === CodeWarrior2015.Backend ===
 --- Simple API ---
