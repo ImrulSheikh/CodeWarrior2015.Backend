@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CW.Backend.DAL.CRUD.Entities
+namespace CW.Backend.DAL.Base.Entities
 {
     public class BaseCoreEntity
     {

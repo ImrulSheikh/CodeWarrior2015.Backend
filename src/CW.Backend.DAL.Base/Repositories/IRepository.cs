@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CW.Backend.DAL.CRUD.Repositories.Interfaces
+namespace CW.Backend.DAL.Base.Repositories
 {
     public interface IRepository<T> where T:class
     {

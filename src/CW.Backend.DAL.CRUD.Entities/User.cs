@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
+using CW.Backend.DAL.Base.Entities;
 
-namespace CW.Backend.DAL.CRUD.Entities
-{
-    public class User:BaseCoreEntity
-    {
+namespace CW.Backend.DAL.CRUD.Entities {
+    public class User : BaseCoreEntity {
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

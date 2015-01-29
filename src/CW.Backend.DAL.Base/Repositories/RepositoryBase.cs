@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using CW.Backend.DAL.CRUD.Repositories.Interfaces;
 
-namespace CW.Backend.DAL.CRUD.Repositories
+namespace CW.Backend.DAL.Base.Repositories
 {
     public class RepositoryBase<T> : IRepository<T>, IDisposable where T : class
     {

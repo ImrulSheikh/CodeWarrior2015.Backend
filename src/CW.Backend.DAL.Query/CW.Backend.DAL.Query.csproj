@@ -46,12 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="IProductFlatRepository.cs" />
+    <Compile Include="Migrations\201501281425169_ProductFlatAdded.cs" />
+    <Compile Include="Migrations\201501281425169_ProductFlatAdded.Designer.cs">
+      <DependentUpon>201501281425169_ProductFlatAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201501281437494_IdentityDisableAndDatetimeFix.cs" />
+    <Compile Include="Migrations\201501281437494_IdentityDisableAndDatetimeFix.Designer.cs">
+      <DependentUpon>201501281437494_IdentityDisableAndDatetimeFix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="ProductFlatContext.cs" />
+    <Compile Include="ProductFlatRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201501281425169_ProductFlatAdded.resx">
+      <DependentUpon>201501281425169_ProductFlatAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201501281437494_IdentityDisableAndDatetimeFix.resx">
+      <DependentUpon>201501281437494_IdentityDisableAndDatetimeFix.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CW.Backend.DAL.Base\CW.Backend.DAL.Base.csproj">
+      <Project>{c27f82e9-bc2a-4eef-9190-2acaf002ec84}</Project>
+      <Name>CW.Backend.DAL.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CW.Backend.DAL.Query.Entities\CW.Backend.DAL.Query.Entities.csproj">
+      <Project>{64726fb1-aced-4370-8c5e-f51682c5f560}</Project>
+      <Name>CW.Backend.DAL.Query.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
