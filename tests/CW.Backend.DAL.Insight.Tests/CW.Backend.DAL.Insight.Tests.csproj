@@ -4,6 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2E371CC8-A42B-4424-861F-5D825B38E96B}</ProjectGuid>
+    <ProjectGuid>d63326b9-d7fa-40f0-ab9f-c7a8355f39bb</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CW.Backend.DAL.Insight.Tests</RootNamespace>
