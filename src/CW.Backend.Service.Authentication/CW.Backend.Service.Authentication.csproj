@@ -142,6 +142,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CW.Backend.DAL.CRUD.Entities\CW.Backend.DAL.CRUD.Entities.csproj">
+      <Project>{708537e4-4311-4bc7-abcd-ba95d639a18c}</Project>
+      <Name>CW.Backend.DAL.CRUD.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CW.Backend.DAL.CRUD\CW.Backend.DAL.CRUD.csproj">
+      <Project>{7ede8c64-0a3a-423a-bf32-fa38913c11e7}</Project>
+      <Name>CW.Backend.DAL.CRUD</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

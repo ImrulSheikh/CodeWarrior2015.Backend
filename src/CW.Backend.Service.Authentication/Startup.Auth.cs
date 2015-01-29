@@ -1,4 +1,5 @@
 ﻿using System;
+using CW.Backend.DAL.CRUD.Contexts;
 using CW.Backend.Service.Authentication.Providers;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
@@ -15,7 +16,7 @@ namespace CW.Backend.Service.Authentication
         {
             PublicClientId = "self";
 
-            UserManagerFactory = () => new UserManager<IdentityUser>(new UserStore<IdentityUser>());
+            UserManagerFactory = () => new UserManager<IdentityUser>(new UserStore<IdentityUser>(new IdentityContext()));
 
             OAuthOptions = new OAuthAuthorizationServerOptions
             {
