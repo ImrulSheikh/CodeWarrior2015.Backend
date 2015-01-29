@@ -61,7 +61,6 @@
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="Category.cs" />
     <Compile Include="CategoryProperty.cs" />
-    <Compile Include="Customer.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="Product.cs" />
@@ -70,8 +69,6 @@
     <Compile Include="ProductPrice.cs" />
     <Compile Include="ProductProperty.cs" />
     <Compile Include="ProductTag.cs" />
-    <Compile Include="Profile.cs" />
-    <Compile Include="ProfileType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>

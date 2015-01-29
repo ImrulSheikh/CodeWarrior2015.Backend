@@ -337,12 +337,6 @@ namespace CW.Backend.Service.Authentication
                 return errorResult;
             }
 
-            var saveResult = ProfileDb.SaveProfile(model);
-            if (!saveResult)
-            {
-                throw new Exception("Unable to save profile");
-            }
-
             return Ok();
         }
 

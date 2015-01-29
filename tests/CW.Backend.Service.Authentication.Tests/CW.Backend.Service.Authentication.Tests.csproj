@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E242AFFD-D19D-4AB3-84F8-5202FC49476F}</ProjectGuid>
-    <ProjectGuid>d817a245-5892-4e8a-9d65-6ff114329faf</ProjectGuid>
+    <ProjectGuid>{E242AFFD-D19D-4AB3-84F8-5202FC49476F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CW.Backend.Service.Authentication.Tests</RootNamespace>

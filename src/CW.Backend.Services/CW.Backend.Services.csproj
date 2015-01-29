@@ -162,6 +162,8 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\ProfilesController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -198,6 +200,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CW.Backend.DAL.Base\CW.Backend.DAL.Base.csproj">
+      <Project>{C27F82E9-BC2A-4EEF-9190-2ACAF002EC84}</Project>
+      <Name>CW.Backend.DAL.Base</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CW.Backend.DAL.CRUD.Entities\CW.Backend.DAL.CRUD.Entities.csproj">
       <Project>{708537e4-4311-4bc7-abcd-ba95d639a18c}</Project>
       <Name>CW.Backend.DAL.CRUD.Entities</Name>
