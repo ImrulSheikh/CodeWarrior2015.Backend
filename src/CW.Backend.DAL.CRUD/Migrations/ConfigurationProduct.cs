@@ -38,7 +38,7 @@ namespace CW.Backend.DAL.CRUD.Migrations
                         CreatedOn = DateTime.Now,
                         Status = EntityStatus.Active
                     },
-                PostedBy = new User
+                PostedBy = new ApplicationUser
                 {
                     FirstName = "Mufle",
                     LastName = "Ibnoon",

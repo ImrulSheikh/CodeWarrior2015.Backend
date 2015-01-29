@@ -5,7 +5,7 @@ using CW.Backend.DAL.Base.Repositories;
 
 namespace CW.Backend.DAL.CRUD.Repositories
 {
-    public class UserRepository : RepositoryBase<User>, IUserRepository
+    public class UserRepository : RepositoryBase<ApplicationUser>, IUserRepository
     {
         public UserRepository(DbContext context) : base(context) { }
     }

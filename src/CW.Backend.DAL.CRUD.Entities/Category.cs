@@ -9,6 +9,6 @@ namespace CW.Backend.DAL.CRUD.Entities
         public string Name { get; set; }
         public string Description { get; set; }
         public ICollection<CategoryProperty> Properties { get; set; }
-        public ICollection<Product> Products { get; set; }
+        //public ICollection<Product> Products { get; set; }
     }
 }

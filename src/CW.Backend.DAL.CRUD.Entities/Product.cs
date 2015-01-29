@@ -21,6 +21,6 @@ namespace CW.Backend.DAL.CRUD.Entities
         public virtual Category Category { get; set; }
 
         public int PostedUserId { get; set; }
-        public virtual User PostedBy { get; set; }
+        public virtual ApplicationUser PostedBy { get; set; }
     }
 }
