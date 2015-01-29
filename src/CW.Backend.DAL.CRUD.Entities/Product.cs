@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using CW.Backend.DAL.Base.Entities;
 
 namespace CW.Backend.DAL.CRUD.Entities
 {

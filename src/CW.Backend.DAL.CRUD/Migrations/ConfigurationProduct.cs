@@ -1,6 +1,7 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Data.Entity.Migrations;
+using CW.Backend.DAL.Base.Entities;
 using CW.Backend.DAL.CRUD.Contexts;
 using CW.Backend.DAL.CRUD.Entities;
 
