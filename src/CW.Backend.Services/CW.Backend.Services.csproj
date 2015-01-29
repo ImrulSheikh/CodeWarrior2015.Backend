@@ -137,6 +137,14 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CW.Backend.DAL.CRUD.Entities\CW.Backend.DAL.CRUD.Entities.csproj">
+      <Project>{708537e4-4311-4bc7-abcd-ba95d639a18c}</Project>
+      <Name>CW.Backend.DAL.CRUD.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CW.Backend.DAL.CRUD\CW.Backend.DAL.CRUD.csproj">
+      <Project>{7ede8c64-0a3a-423a-bf32-fa38913c11e7}</Project>
+      <Name>CW.Backend.DAL.CRUD</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CW.Backend.Service.Authentication\CW.Backend.Service.Authentication.csproj">
       <Project>{dd73afac-33f3-45bf-950b-03de609fc96d}</Project>
       <Name>CW.Backend.Service.Authentication</Name>
