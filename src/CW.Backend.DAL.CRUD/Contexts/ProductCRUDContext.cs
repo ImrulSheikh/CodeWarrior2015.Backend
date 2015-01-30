@@ -61,6 +61,11 @@ namespace CW.Backend.DAL.CRUD.Contexts
             //modelBuilder.Entity<Product>().HasRequired(p => p.Category).WithMany(c => c.Products).HasForeignKey(p => p.CategoryId);
             modelBuilder.Entity<Product>().HasMany(p => p.Groups).WithMany(g => g.Products);
 
+            modelBuilder.Entity<Category>()
+                .HasMany(c => c.SubCategories)
+                .WithOptional()
+                .HasForeignKey(c => c.ParentId);
+
             //modelBuilder.Entity<Order>().HasRequired(o => o.User).WithMany(u => u.Orders).HasForeignKey(o => o.OrderedBy).WillCascadeOnDelete(false);
 
         }

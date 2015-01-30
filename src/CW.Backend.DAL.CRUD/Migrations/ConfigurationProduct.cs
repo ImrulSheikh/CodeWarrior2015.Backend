@@ -40,8 +40,8 @@ namespace CW.Backend.DAL.CRUD.Migrations
                     },
                 PostedBy = new ApplicationUser
                 {
-                    FirstName = "Mufle",
-                    LastName = "Ibnoon",
+                    UserName = "MIbnoon",
+                    FullName = "Mufle Ibnoon",
                     Sex = "Male",
                     Email = "tonmoy0605055@gmail.com",
                     CreatedBy = "Ibnoon",
