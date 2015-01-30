@@ -14,9 +14,14 @@ namespace CW.Backend.DAL.Base.Repositories
 
         public void Add(T entity)
         {
-            //_ctx.Set<T>().Add(entity);
-            _ctx.Set<T>().Attach(entity);
-            _ctx.Entry(entity).State = EntityState.Added;
+            _ctx.Set<T>().Add(entity);
+            //_ctx.Set<T>().Attach(entity);
+            //_ctx.Entry(entity).State = EntityState.Added;
+        }
+
+        public void AddRange(IEnumerable<T> entityList)
+        {
+            _ctx.Set<T>().AddRange(entityList);
         }
 
         public IEnumerable<T> GetAll()

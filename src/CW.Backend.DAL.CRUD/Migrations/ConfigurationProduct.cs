@@ -48,13 +48,14 @@ namespace CW.Backend.DAL.CRUD.Migrations
                     CreatedOn = DateTime.Now,
                     Status = EntityStatus.Active
                 },
-                Prices = new Collection<ProductPrice>
-                {
-                    new ProductPrice {UnitPrice = 480, Discount = 100, DiscountValidity = new DateTime(2015, 03, 01)},
-                    new ProductPrice {UnitPrice = 500, Discount = 50, DiscountValidity = new DateTime(2015, 04, 01)},
-                    new ProductPrice {UnitPrice = 600, Discount = 30, DiscountValidity = new DateTime(2015, 05, 01)},
-                    new ProductPrice {UnitPrice = 600, Discount = 0}
-                },
+                Price = new ProductPrice {UnitPrice = 480, Discount = 50, DiscountValidity = new DateTime(2015, 03, 01)},
+                //Price = new Collection<ProductPrice>
+                //{
+                //    new ProductPrice {UnitPrice = 480, Discount = 100, DiscountValidity = new DateTime(2015, 03, 01)},
+                //    new ProductPrice {UnitPrice = 500, Discount = 50, DiscountValidity = new DateTime(2015, 04, 01)},
+                //    new ProductPrice {UnitPrice = 600, Discount = 30, DiscountValidity = new DateTime(2015, 05, 01)},
+                //    new ProductPrice {UnitPrice = 600, Discount = 0}
+                //},
                 NumberOfUnits = 1,
                 Properties = new Collection<ProductProperty>
                 {

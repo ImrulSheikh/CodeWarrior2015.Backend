@@ -6,18 +6,18 @@ namespace CW.Backend.DAL.Query
 {
     public class ProductFlatContext : DbContext
     {
-        public DbSet<ProductFlat> Products { get; set; }
+        public DbSet<ProductDetails> Products { get; set; }
 
         public ProductFlatContext() : base("ProductFlat") { }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<ProductFlat>()
+            modelBuilder.Entity<ProductDetails>()
                 .Property(p => p.Id)
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
 
-            modelBuilder.Entity<ProductFlat>().Property(p => p.CreatedOn).HasColumnType("datetime2");
-            modelBuilder.Entity<ProductFlat>().Property(p => p.UpdatedOn).HasColumnType("datetime2");
+            modelBuilder.Entity<ProductDetails>().Property(p => p.CreatedOn).HasColumnType("datetime2");
+            modelBuilder.Entity<ProductDetails>().Property(p => p.UpdatedOn).HasColumnType("datetime2");
         }
     }
 }
