@@ -6,7 +6,13 @@ namespace CW.Backend.DAL.Query.Repositories
 {
     public class UserFlatRepository : RepositoryBase<UserFlatProfile>, IUserFlatRepository
     {
-        public UserFlatRepository(ProductFlatContext context) : base(context)
+        public UserFlatRepository()
+            : base(new ProductFlatContext())
+        {
+
+        }
+        public UserFlatRepository(ProductFlatContext context)
+            : base(context)
         {
         }
     }
