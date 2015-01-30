@@ -17,7 +17,6 @@ namespace CodeWarrior2015.Backend.Service.ProductFlat.Migrations
 
         protected override void Seed(ProductFlatContext context)
         {
-            context.
         }
     }
 }

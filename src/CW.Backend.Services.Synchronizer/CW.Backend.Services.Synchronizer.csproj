@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="AllQueryRecordsSynchronizer.cs" />
     <Compile Include="ProductDetailsSynchronizer.cs" />
+    <Compile Include="UserFlatProfilesSynchronizer.cs" />
     <Compile Include="ProductSummarySynchronizer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
