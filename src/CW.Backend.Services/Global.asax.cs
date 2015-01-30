@@ -12,9 +12,9 @@ namespace CW.Backend.Services
     {
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas();
+//            AreaRegistration.RegisterAllAreas();
 
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            //RouteConfig.RegisterRoutes(RouteTable.Routes);
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
