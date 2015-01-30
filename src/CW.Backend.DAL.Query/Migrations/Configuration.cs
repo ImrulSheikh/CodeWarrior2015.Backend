@@ -1,4 +1,5 @@
 using CW.Backend.DAL.Query;
+using CW.Backend.DAL.Query.Repositories;
 
 namespace CodeWarrior2015.Backend.Service.ProductFlat.Migrations
 {

@@ -40,14 +40,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ProductDetails.cs" />
-    <Compile Include="ProductFlat.cs" />
     <Compile Include="ProductSummary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserFlatProfile.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CW.Backend.DAL.Base\CW.Backend.DAL.Base.csproj">
       <Project>{c27f82e9-bc2a-4eef-9190-2acaf002ec84}</Project>
       <Name>CW.Backend.DAL.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CW.Backend.DAL.CRUD.Entities\CW.Backend.DAL.CRUD.Entities.csproj">
+      <Project>{708537E4-4311-4BC7-ABCD-BA95D639A18C}</Project>
+      <Name>CW.Backend.DAL.CRUD.Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

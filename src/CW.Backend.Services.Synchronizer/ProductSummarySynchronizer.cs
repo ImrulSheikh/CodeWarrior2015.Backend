@@ -6,6 +6,7 @@ using CW.Backend.DAL.CRUD.Entities;
 using CW.Backend.DAL.CRUD.Repositories;
 using CW.Backend.DAL.Query;
 using CW.Backend.DAL.Query.Entities;
+using CW.Backend.DAL.Query.Repositories;
 
 namespace CW.Backend.Services.Synchronizer
 {

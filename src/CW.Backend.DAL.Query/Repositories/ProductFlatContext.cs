@@ -2,7 +2,7 @@
 using System.Data.Entity;
 using CW.Backend.DAL.Query.Entities;
 
-namespace CW.Backend.DAL.Query
+namespace CW.Backend.DAL.Query.Repositories
 {
     public class ProductFlatContext : DbContext
     {

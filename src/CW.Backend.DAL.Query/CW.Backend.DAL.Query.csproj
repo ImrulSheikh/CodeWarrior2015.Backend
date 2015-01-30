@@ -46,8 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IProductDetailsRepository.cs" />
-    <Compile Include="IProductSummaryRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IProductDetailsRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IProductSummaryRepository.cs" />
     <Compile Include="Migrations\201501281425169_ProductFlatAdded.cs" />
     <Compile Include="Migrations\201501281425169_ProductFlatAdded.Designer.cs">
       <DependentUpon>201501281425169_ProductFlatAdded.cs</DependentUpon>
@@ -57,9 +57,11 @@
       <DependentUpon>201501281437494_IdentityDisableAndDatetimeFix.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="ProductDetailsRepository.cs" />
-    <Compile Include="ProductFlatContext.cs" />
-    <Compile Include="ProductSummaryRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IUserFlatProfile.cs" />
+    <Compile Include="Repositories\UserFlatRepository.cs" />
+    <Compile Include="Repositories\ProductDetailsRepository.cs" />
+    <Compile Include="Repositories\ProductFlatContext.cs" />
+    <Compile Include="Repositories\ProductSummaryRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
