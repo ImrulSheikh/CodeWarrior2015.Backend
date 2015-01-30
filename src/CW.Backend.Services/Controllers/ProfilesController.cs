@@ -13,7 +13,7 @@ using CW.Backend.DAL.CRUD.Repositories.Interfaces;
 
 namespace CW.Backend.Services.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [RoutePrefix("api/Profiles")]
     public class ProfilesController : ApiController
     {

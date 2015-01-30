@@ -9,7 +9,7 @@ using System.Web.Http;
 
 namespace CW.Backend.Services.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [RoutePrefix("api/Products")]
     public class ProductsController : ApiController
     {
