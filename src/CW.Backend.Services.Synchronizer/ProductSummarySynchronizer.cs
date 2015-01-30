@@ -55,7 +55,7 @@ namespace CW.Backend.Services.Synchronizer
                 NumberOfUnits = product.NumberOfUnits,
                 Price = product.Price.UnitPrice,
                 PostedUserId = product.PostedUserId,
-                PostedUserName = product.PostedBy.FirstName,
+                PostedUserName = product.PostedBy.UserName,
                 CreatedBy = product.CreatedBy,
                 CreatedOn = product.CreatedOn,
                 UpdatedBy = product.UpdatedBy,
